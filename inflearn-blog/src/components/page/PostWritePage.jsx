@@ -36,7 +36,7 @@ function PostWritePage(props) {
         <TextInput
           height={20}
           value={title}
-          onChange={(e) => setTitle(e.targget.value)}
+          onChange={(e) => setTitle(e.target.value)}
         />
 
         <TextInput
